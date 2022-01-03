@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pt.unl.fct.di.novasys.peernet</groupId>
-	<artifactId>peernet-p2p-example</artifactId>
+	<artifactId>p2psim-p2p-example</artifactId>
 	<version>0.3</version>
 
 	<properties>
@@ -19,13 +19,13 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>pt.unl.fct.di.novasys.peernet</groupId>
+			<groupId>pt.unl.fct.di.novasys.p2psim</groupId>
 			<artifactId>core</artifactId>
 			<version>1.1</version>
 		</dependency>
 		<dependency>
-			<groupId>pt.unl.fct.di.novasys.peernet</groupId>
-			<artifactId>peernet-scalable-engine</artifactId>
+			<groupId>pt.unl.fct.di.novasys.p2psim</groupId>
+			<artifactId>p2psim-scalable-engine</artifactId>
 			<version>0.1</version>
 		</dependency>
 	</dependencies>
@@ -95,7 +95,7 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<version>3.1.1</version>
 				<configuration>
-					<finalName>peernet</finalName>
+					<finalName>p2psim</finalName>
 					<appendAssemblyId>false</appendAssemblyId>
 					<archive>
 						<manifest>
