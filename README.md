@@ -1,6 +1,6 @@
-# peernet-p2p-example
+# p2psim-p2p-example
 
-This project provides examples of simple peer-to-peer protocols (Cyclon and an epidemic flood protocol operating on top of it) and configuration files to execute simple benchmark experiments on the Peernet simulator (https://github.com/jcleitao/peernet-core) using its (original) event-driven simulation and the scalable event-driven engine available here: https://github.com/jcleitao/peernet-scalable-engine.
+This project provides examples of simple peer-to-peer protocols (Cyclon and an epidemic flood protocol operating on top of it) and configuration files to execute simple benchmark experiments on the Peernet simulator (https://github.com/jcleitao/p2psim-core) using its (original) event-driven simulation and the scalable event-driven engine available here: https://github.com/jcleitao/p2psim-scalable-engine.
 
 The experiments defined in the configuration files allow to execute experiments that stress the simualtor, by having nodes form an unstructured overlay network based on Cyclon (with 30 neighbors) and then executing a costly epidemic flood broadcast protocol on top of that overlay, where 10% of nodes broadcast a message periodically.
 
